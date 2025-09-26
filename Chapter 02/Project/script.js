@@ -4,6 +4,16 @@ let distanceinkm = miles  *  1.60934 ;
 console.log("The distance of ", miles, "kms is equal to ",distanceinkm, "miles");
 
 /*  BMI calculator */
+let inches = prompt("Enter your height in inches")
+let pounds = prompt("Enter your weight in pound")
+
+
+let height = inches * 2.54 // height in cm
+let weight = pounds / 2.2046 // in kilo
+
+let bmi = weight / (height/100* height/100) ; 
+console.log(bmi);
+
 
 
 
