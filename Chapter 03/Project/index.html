@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Company product catalog</h1>
+    <p> In this project, you will implement a data structure for a product catalog and create 
+queries to retrieve data.</p>
+<ul>
+    <li> 1. Create an array to hold an inventory of store items.</li>
+    <li>Create three items, each having the properties of name, model, cost, and quantity.</li>
+    <li>Add all three objects to the main array using an array method, and then log 
+the inventory array to the console.</li>
+    <li>Access the quantity element of your third item, and log it to the console. 
+Experiment by adding and accessing more elements within your data 
+structure.</li>
+</ul>
+    <!-- <script src="script.js"></script> -->
+    <script>
+
+let inventory = [];
+
+  let storeItems1 = {
+      name : "productName",
+      model : "newModel-001",
+      cost :  7000 ,
+      quantity: 3
+  };
+
+  
+  let storeItems2 = {
+      name : "productName2",
+      model : "newModel-002",
+      cost :  10000 ,
+      quantity: 7
+  };
+  
+  
+  let storeItems3 = {
+      name : "productName3",
+      model : "newModel-003",
+      cost :  2100 ,
+      quantity: 37
+  };
+
+  inventory.push(storeItems1,storeItems2,storeItems3)
+  console.log(inventory);
+
+  let ans = storeItems3.name;
+  console.log(ans);
+  console.log(inventory[2].model);
+  
+  
+  
+   
+
+
+
+    </script>
+</body>
+</html>
