@@ -16,10 +16,67 @@ forSale property to indicate whether the car is available for purchase.
 
  5. Output the value of forSale into the console.
  * **/
-const myCar = {
-    model : "Bmw",
-    price :  7000000,
-     seat :  "7",
-     offRoad : false ,
-     fuel : "disesl"
-}
+
+// const myCar = {
+//       make: "Toyota",
+//     model: "Camry",
+//     price :  7000000,
+//     year : 2000,
+//      isElectric : false ,
+//      fuel : "disesl",
+// }
+
+// let  property = "color"
+// myCar[property] =  "newValue";
+
+// property = "forSale"
+// myCar[property] =  true;
+
+
+// console.log(myCar.make + " " + myCar.model);
+// console.log(myCar.forSale);
+
+
+ let dog = { dogName: "JavaScript", 
+weight: 2.4, 
+color: "brown", 
+breed: "chihuahua", 
+age: 3, 
+burglarBiter: true 
+          };
+
+          dog["color"] = "blue"
+          dog.weight = 2.3;
+          console.log(dog);
+
+          dog["age"] = "three"
+          console.log(dog);
+                     
+          let variable = "age";
+          console.log(dog[variable]);
+
+         variable = "breed";
+          console.log(dog[variable]);
+          dog[variable]= "dachshund";
+          console.log(dog["breed"]);
+          
+          
+          let myCar = {
+            make:"toyota",
+            model : "i20",
+            price : 7000000,
+            isElectric: false
+          }
+
+          let variable1 = "color";
+          myCar[variable1] = "blue"
+
+          variable1 = "forSale"
+        
+        myCar[variable1]  = true 
+
+          console.log(myCar.make + " " +  myCar.model);
+          console.log(myCar[variable1]);
+          
+          
+          
